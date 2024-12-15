@@ -1,27 +1,37 @@
-# To configuare the username and email.
+# 1 To configuare the username and email.
 
 - git config --global user.name "Salman"
 
 - git config --global user.email "msalmanbappy@gmail.com"
 
-# Create a repository.
+# 2 Create a repository.
 
 - git init
 
-# Add remote repository.
+# 3 Add remote repository.
 
 - git remote add origin https:<remote repository link>
 
-# Add files to the staging area for commit.
+# 4 Add files to the staging area for commit.
 
 - git add filename.py
 - git add \*.py <Add files with specific extension>
 - git add . <add all file in the repository>
 
-# See remote link
+# 5 Commit changes
+
+- git commit -m "Some Messages"
+
+# 6 See remote link
 
 - git remote -v
 
-# Rebase commit
+# 7 Rebase commit
 
 - git commit --amend -m "Rebased Commit"
+
+# 8 View Changes in Files
+
+- git diff <This shows line-by-line changes in all modified files.>
+- git diff filename.js <To see changes in a specific file>
+- git diff --cached <After you stage files using git add, view the changes in the staging area with>
