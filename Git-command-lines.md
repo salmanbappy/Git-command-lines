@@ -35,6 +35,7 @@
 - git diff <This shows line-by-line changes in all modified files.>
 - git diff filename.js <To see changes in a specific file>
 - git diff --cached <After you stage files using git add, view the changes in the staging area with>
-  HELOO
+
+# HELOO
 
 # GIT pull origin main --rebase
